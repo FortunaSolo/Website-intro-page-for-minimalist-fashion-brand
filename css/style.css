@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  filter: grayscale(100);
+  background-color: #f5faf6;
+}
+header {
+  padding: 0 5ch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-top-left-radius: 20px;
+}
+.logo {
+  width: 70px;
+  height: auto;
+}
+header i {
+  font-size: 2rem;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main p {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 10ch;
+  text-align: center;
+  margin: 3ch;
+}
